@@ -1,10 +1,11 @@
 :root {
-    --color-primary: #4B69FD;
+    --color-primary: #211c33;
     --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
+    --color-tertiary: #28a745;
+    --color-button: #042cc1;
+    --color-button-hover: #001dad;
     --color-text: #444444;
+    --color-text-button-add: #211c33;
     --color-white: #FFFFFF;
 }
 
@@ -117,12 +118,12 @@ button {
 
 .button-add {
     background-color: var(--color-tertiary);
-    color: var(--color-text);
+    color: var(--color-text-button-add);
     border-radius: 0 25px 25px 0;
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    background-color: #218838;
 }
 
 /* Listas */
